@@ -1,0 +1,78 @@
+body {
+  
+
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+
+}
+
+.box {
+padding:15px;
+border:10px;
+border: 2px solid black;
+width: 60%;
+background-color:white;
+margin: auto;
+ opacity: .95;
+    filter: alpha(opacity=95);
+}
+.jumbotron {
+ background-image: url("beerbackground.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+margin-top: 50px;
+margin-bottom: 0;
+height: 100%;
+border: 2px solid black;
+ }
+ h2 {
+ padding-top: 45%;
+ }
+ h1{
+ padding-top: 5%
+ }
+ #one {
+ margin-top:0;
+ 
+ background: url(bottlecaps.jpeg) 50% 0 fixed; 
+}
+
+footer {
+    height: 100px;
+    background-color: black;
+}
+footer p {
+text-align: center;
+color: white;
+}
+.footertext {
+padding-top: 30px;
+width: 40%;
+margin: auto;
+}
+#empty {
+    height: 250px;
+    
+    }
+    
+
+    
+    
+@media screen and (max-width: 480px)  { 
+#empty {
+display: none;
+}
+h1 {
+padding-top: 0%
+}
+h2 {
+padding-top: 40%
+}
+}
+
+.box {
+width: 90%;
+}
+}
